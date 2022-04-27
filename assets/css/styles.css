@@ -32,6 +32,12 @@
     width: 50vw;
 
 }
+.ofertaSeccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 .centrar{
    display: flex;
