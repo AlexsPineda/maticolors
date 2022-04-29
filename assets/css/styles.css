@@ -44,3 +44,9 @@
    flex-direction: column; 
    justify-content: center;
 }
+.img-card{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
