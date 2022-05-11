@@ -26,6 +26,8 @@
             <div class="navbar-nav">
               <a class="nav-link active" href="#carouselExampleIndicators">Inicio <span class="sr-only">(current)</span></a>
               <a class="nav-link" href="#productos">Productos</a>
+              <a class="nav-link" href="#ofertas">Ofertas</a>
+              <a class="nav-link" href="#ubicacion">Ubicación</a>
               <a class="nav-link" href="#nosotros">Nosotros</a>
               <a class="nav-link" href="#contactanos">Contáctanos</a>
             </div>
@@ -37,7 +39,7 @@
         <div class="pantalla">
             <div class="cuadro">
               <h1>Maticolors</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ut expedita tempore laudantium autem nostrum porro alias voluptatum, soluta dicta sed illo eos deleniti iusto tenetur sunt. Aspernatur, cupiditate animi.</p>
+              <p>Negocio dedicado a crear y plasmar tus ideas en playerras, sudaderas, termos, tazas, vasos, etc.</p>
             </div>
           </div>
         <ol class="carousel-indicators">
@@ -74,7 +76,7 @@
                     <div class="card" >
                         <img src="assets/img/playera.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text"></p>
                         </div>
                     </div>
                   </div>
@@ -82,15 +84,15 @@
                     <div class="card">
                         <img src="assets/img/gorra.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text"></p>
                         </div>
                       </div>
                   </div>
-                  <div class="col mb-4"><!-- ????? -->
+                  <div class="col mb-4">
                     <div class="card">
                         <img src="assets/img/termo.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text"></p>
                         </div>
                       </div>
                   </div>
@@ -106,25 +108,36 @@
           </div>
         </div>
         
-        <div class="container">
-          <div class="row">
-            <div class="col mb-4"> <!--   -->
+        <div class="container pt-12">     
+            
               <div class="card mb-3" style="max-width: 540px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="assets/img/tazaM.jpg" alt="..." class="img-card">
+                <div class="row no-gutters row-cols-1 row-cols-md-2">
+                  <div class="col-md-2">
+                    <img src="assets/img/tazaM.jpg" alt="..." class="card-img-top img-card">
                   </div>
-                  <div class="col-md-8">
+                  <div class="col-md-2">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Páquete para máma</h5>
+                      <p class="card-text"></p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
+                  <div class="col-md-2">
+                    <img src="assets/img/tazaM.jpg" alt="..." class="card-img-top img-card">
+                  </div>
+                  <div class="col-md-2 ">
+                    <div class="card-body">
+                      <h5 class="card-title">Páquete para pápa</h5>
+                      <p class="card-text"></p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>                  
+
                 </div>
+                
               </div>
-            </div>
-          </div>
+              
+            
         </div>
       </div>
       <div id="nosotros" class="mt-5">
@@ -134,13 +147,8 @@
               <h2 class='text-center' >Nosotros</h2>
               <div class="pt-3">
                 <h3>MISIÓN</h3>
-                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas molestias, recusandae corporis dolor, odit, nihil dicta maxime iusto libero tenetur vero magni beatae blanditiis quibusdam suscipit. Ducimus recusandae adipisci eaque.
-                Nisi sunt id nam assumenda laudantium, deleniti necessitatibus aperiam error? Sit illo voluptate neque nobis soluta odio quia nulla voluptas officiis. Consectetur harum sapiente quo aliquid exercitationem error dolorum magni.
-                Nulla suscipit maxime numquam deleniti vel, reiciendis qui maiores, unde non alias a ipsam voluptates cumque soluta placeat quas obcaecati illum! Quas rerum facere rem odio delectus porro eius quasi.
+                <p >Somos una empresa dedicada a plasmar tus ideas en nuestros diferentes productos ()
                 </p>
-  
-                <h3 ></h3>
-                <p ></p>
               </div>
             </div>
             <div class="col bg-secondary text-white p-4">
@@ -148,47 +156,23 @@
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="qwerty@mati.com">
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="inputAddress">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  <label for="inputAddress">Nombre</label>
+                  <input type="text" class="form-control" id="inputNombre" placeholder="Nombre completo">
                 </div>
-                <div class="form-group">
-                  <label for="inputAddress2">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div>
+                
                 <div class="form-row">
                   <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <label for="inputCity">Mensaje</label>
+                    <input type="text" class="form-control" id="inputMensaje" placeholder="Mensaje">
                   </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                  </div>
+                  
                 </div>
-                <div class="form-group">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-warning">Sign in</button>
+                
+                <button type="submit" class="btn btn-warning">Enviar</button>
               </form>
             </div>
           </div>
